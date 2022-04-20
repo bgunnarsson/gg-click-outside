@@ -1,4 +1,4 @@
-export const ClickOutside = ({callback}): void => {
+export const ClickOutside = (): void => {
     // Clicks
     document.addEventListener('click', (e: Event) => {
       const target = e.target as HTMLElement
@@ -11,7 +11,7 @@ export const ClickOutside = ({callback}): void => {
 
       if (target.closest('.co-trigger')) return
 
-      callback()
+      // callback()
 
       Array.prototype.forEach.call(classTargets, (item) => {
         if (item.classList.contains('open')) {
