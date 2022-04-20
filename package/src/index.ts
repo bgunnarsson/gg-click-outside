@@ -1,7 +1,7 @@
 export const ClickOutSide = ({callback}): void => {
     // Clicks
     document.addEventListener('click', (e: Event) => {
-      const target = (<HTMLElement>e.target)
+      const target = e.target as HTMLElement
       const classTargets = document.querySelectorAll('.co-el') as NodeList
 
       // const parent = (<HTMLElement>(<HTMLElement>target).parentNode)

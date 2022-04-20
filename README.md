@@ -1,20 +1,22 @@
-# _Fake Submit_
+# _Click Outside_
+
+Click outside of elements to close them.
+
+---
 
 ### `Install`
 
 ```
-$ npm i --save @gunnarssongroup/fake-submit
+$ npm i --save @gunnarssongroup/click-outside
 -or-
-$ yarn add @gunnarssongroup/fake-submit
+$ yarn add @gunnarssongroup/click-outside
 ```
 
 ### `Usage`
 ```
-import { FakeSubmit } from '@gunnarssongroup/fake-submit'
+import { ClickOutside } from '@gunnarssongroup/click-outside'
 
-button.addEventListener('click', (e: Event & {target: HTMLButtonElement}) => {
-  FakeSubmit(form)
-})
+
 ```
 
 ### `Project Setup`
