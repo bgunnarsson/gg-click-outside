@@ -16,6 +16,7 @@ $ yarn add @gunnarssongroup/click-outside
 ```
 import { ClickOutside } from '@gunnarssongroup/click-outside'
 
+ClickOutside({callback: () => {console.log('callback from ClickOutside')}})
 
 ```
 

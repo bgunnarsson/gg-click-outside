@@ -1,4 +1,4 @@
-export const ClickOutSide = ({callback}): void => {
+export const ClickOutside = ({callback}): void => {
     // Clicks
     document.addEventListener('click', (e: Event) => {
       const target = e.target as HTMLElement
